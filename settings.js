@@ -11,7 +11,7 @@ const chalk = require('chalk')
 //===> SESUAIKAN DENGAN KEBUTUHAN MU
 global.ownerNumber = ['6283869821927'] //Ganti Jadi Nomer mu Biar Fitur Ownernya Bisa Dipake
 global.Rowner = '6283869821927' //Owner Utama
-global.ownerName = 'Hamzah' //Ganti Jadi Namamu
+global.ownerName = '^Hamzah*' //Ganti Jadi Namamu
 global.packname = 'Zaxky_BotMd' //Ganti Jadi Nama Botmu
 global.author = 'HAMZAH' //Ganti Jadi Namamu
 global.prefa = ['','.','#','!'] //Ilangin Prefix Yang '' Kalau Gamau No Prefix
@@ -50,7 +50,7 @@ prem: '*Khusus User Premium*'
 
 //===> KALAU GANTI FOTO GANTI JUGA NAMA NYA
 global.thumb = fs.readFileSync('./media/halo.jpg')
-global.donasi = fs.readFileSync('./media/donasi.jpg')
+global.donasi = fs.readFileSync('./media/donasi.png')
 global.thumbnail = fs.readFileSync('./media/ichi.mp4')
 global.doc = fs.readFileSync('./media/ichi.pdf')
 
